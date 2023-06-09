@@ -1,0 +1,104 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333333;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box; /* Solución al problema de desbordamiento */
+    margin-bottom: 10px; /* Espacio adicional entre los inputs */
+  }
+  
+  button {
+    background-color: #007AFF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Espacio adicional entre el botón y los inputs */
+  }
+  
+  .button-secondary {
+    background-color: #ffffff;
+    color: #007AFF;
+    border: 1px solid #007AFF;
+  }
+  
+  .alumnoForm {
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden; /* Solución al problema de desbordamiento */
+  }
+  
+  .alumnoForm h2 {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .alumnoForm label {
+    color: #555555;
+  }
+  
+  .resultado {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .resultado h2 {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .resultado p {
+    margin: 0;
+    color: #555555;
+  }
+  
+  .resultado p strong {
+    color: #007AFF;
+  }
+  
+  .mensaje {
+    padding: 10px;
+    background-color: #ffdbb3;
+    border-radius: 5px;
+    color: #ff5722;
+    margin-bottom: 10px;
+  }
+  
